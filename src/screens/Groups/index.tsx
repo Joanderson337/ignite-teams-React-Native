@@ -1,11 +1,9 @@
-import { Container, Title } from './styled';
+import { Container } from './styled';
 
 export function Groups() {
   return (
     <Container>
-      <Title>
         Groups
-      </Title>
     </Container>
   );
 }
