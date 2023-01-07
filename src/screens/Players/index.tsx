@@ -7,26 +7,35 @@ import { Highlight } from "@components/Highlight";
 import { Input } from "@components/Input";
 import { ListEmpty } from "@components/ListEmpty";
 import { Button } from "@components/Button";
+import { useRoute } from '@react-navigation/native';
 
 import { Container, Form, HeaderList, NumberOfPlayers } from "./styled";
 import { PlayerCard } from "@components/PlayerCard";
 
+type RouteParams = {
+  group: string;
+}
+
+
 export function Players() {
-  const [team, setTeam] = useState("Time A");
+  const [team, setTeam] = useState('Time A');
   const [players, setPlayers] = useState([]);
+
+  const route = useRoute()
+
+  const { group } = route.params as RouteParams
 
   return (
     <Container>
       <Header showBackButton />
 
       <Highlight
-        title="Nome da turma"
+        title={group}
         subtitle="adicione a galera e separe os times"
       />
 
       <Form>
         <Input placeholder="Nome da pessoa" autoCorrect={false} />
-
         <ButtonIcon icon="add" />
       </Form>
 
@@ -62,6 +71,7 @@ export function Players() {
           players.length === 0 && { flex: 1 },
         ]}
       />
+      
       <Button title="Remover Turma" type="SECONDARY" />
     </Container>
   );
