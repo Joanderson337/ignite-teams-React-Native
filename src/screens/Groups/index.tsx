@@ -1,3 +1,4 @@
+import { Button } from "@components/Button";
 import { GroupCard } from "@components/GroupCard";
 import { Header } from "@components/Header";
 import { Highlight } from "@components/Highlight";
@@ -13,6 +14,7 @@ export function Groups() {
     <Container>
       <Header />
       <Highlight title="Turmas" subtitle="jogue com a sua turma" />
+
       <FlatList
         data={groups}
         keyExtractor={(item) => item}
@@ -21,6 +23,10 @@ export function Groups() {
         ListEmptyComponent={() => (
           <ListEmpty message="Que tal cadastrar a primeira turma?" />
         )}
+      />
+      
+       <Button 
+        title='Criar nova turma'
       />
     </Container>
   );
