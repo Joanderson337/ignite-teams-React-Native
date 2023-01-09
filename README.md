@@ -27,18 +27,19 @@
    Android: ⤸
      </br>
      </br>
-    ![image](https://user-images.githubusercontent.com/77758027/211205154-ee14cbcb-315c-4ef0-a26b-41c6df6e94b0.png)
+  ![image](https://user-images.githubusercontent.com/77758027/211227529-1d89859b-359c-4dd2-928b-877c0dd70d6f.png)
      </br>
      </br>
    IOS:  ⤸
      </br>
      </br>
-    ![image](https://user-images.githubusercontent.com/77758027/211205132-aee1b77a-e2c1-43af-b966-fa123c847f75.png)
+   ![image](https://user-images.githubusercontent.com/77758027/211227514-98da7408-7c67-4bcf-8d05-ee8c2d44537d.png)
 
 
 ## Screenshots
   <br/>
- <img width="400px" src="https://user-images.githubusercontent.com/77758027/211205379-805b861c-09d7-4bbc-999e-3b8360574236.png" />
+ <img width="400px" src="https://user-images.githubusercontent.com/77758027/211227451-996bb0fc-a95a-4c7b-9cf1-891cde262ce3.png" />
+
 
 
 
